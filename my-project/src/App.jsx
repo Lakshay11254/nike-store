@@ -1,6 +1,6 @@
 import Nav from './component/Nav';
 import { Hero,
-  PopularProducts,
+  PopularProduct,
   Services,
   Subscribe,
   SpecialOffer,
@@ -16,7 +16,7 @@ const App = () => (
         <Hero />
       </section>
       <section className='padding'>
-        <PopularProducts />
+        <PopularProduct/>
       </section>
       <section className='padding'>
         <SuperQuality />
