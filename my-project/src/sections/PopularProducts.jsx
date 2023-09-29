@@ -1,6 +1,6 @@
 import PopularProductCard from "../component/PopularProductCard";
 import { products } from "../constants";
-const PopularProduct = () => {
+const PopularProducts = () => {
   return (
     <div>
       <section id="products" className="max-container max-sm:mt-12">
@@ -26,4 +26,4 @@ const PopularProduct = () => {
   );
 };
 
-export default PopularProduct;
+export default PopularProducts;
